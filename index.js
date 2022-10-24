@@ -15,7 +15,7 @@ class Tree {
     let queue = [this.root];
 
     while(queue.length){
-      currentNode = queue.shift();
+      currentNode = queue.pop();
 
       if(currentNode.data === data){
         return currentNode
